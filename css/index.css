@@ -100,8 +100,6 @@ nav .top {
 .container {
     width: 1200px;
     margin: 0 auto;
-    overflow: hidden;
-    position: relative;
 }
 
 nav .bottom {
@@ -175,9 +173,9 @@ nav .top .box {
     font-size: 10px;
     position: absolute;
     top: 44px;
-    right: 0;
+    right: 74px;
     overflow: hidden;
-    z-index: 999;
+    z-index: 20;
     display: none;
 }
 
@@ -678,12 +676,17 @@ nav .right .ss:hover {
     color: #605751;
 }
 
+.bottom1 .over{
+    width: 959px;
+    overflow: hidden;
+    height: 304px;
+    position: relative;
+}
 .bottom1 .gou {
     width: 1918px;
     height: 338px;
     display: flex;
     position: absolute;
-    left: 241px;
 }
 
 .bottom1 li {
@@ -1097,7 +1100,12 @@ main .you .top h1 .rt p {
     right: 10px;
     top: -15px;
 }
-
+main .you .over{
+    width: 1200px;
+    overflow: hidden;
+    height: 304px;
+    position: relative;
+}
 main .you .bottom {
     width: 4800px;
     height: 304px;
@@ -1174,10 +1182,6 @@ main .you .bottom li h6 {
     text-align: center;
     margin-top: 5px;
     color: #777;
-}
-
-main .hot {
-    margin-top: 344px;
 }
 
 main .hot .bottom {
